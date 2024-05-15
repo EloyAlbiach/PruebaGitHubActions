@@ -51,5 +51,5 @@ jobs:
         uses: php-actions/phpcs@v1
         with:
           php_version: 8.2
-          path: main
+          path: https://github.com/EloyAlbiach/PruebaGitHubActions/tree/main
           standard: PSR12
