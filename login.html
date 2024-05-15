@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Finestra d'entrada al lloc web -->
+<html>
+    <head>
+        <title>IES CAMP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./estils/estil.css"/>
+    </head>
+    <body>
+        <header><h1></h1></header>
+        <section>
+            <form action="login.php" method="post">
+                <div id="text">
+                    <label>Usuari</label><br>
+                    <input type="text" name="user" maxlength="30" required/><br>
+                    <label>Contrasenya</label><br>
+                    <input type="password" name="pwd" maxlength="60" required/><br>
+                </div>
+                <div id="boto_wrapper">
+                    <input id="boto" type="submit" name="enviar" value="Entra"/>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
