@@ -1,4 +1,4 @@
 <?php
 
-    //header('location: login.html');
-    echo phpinfo();
+    header('location: login.html');
+    
