@@ -1,1 +1,2 @@
 # PruebaGitHubActions
+## Automatizando sonarcloud
